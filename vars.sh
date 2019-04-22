@@ -1,3 +1,3 @@
 #!/bin/bash
-a = "HELLO WORLD"
+a="HELLO WORLD"
 echo $a 
