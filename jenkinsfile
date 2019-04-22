@@ -4,8 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 sh './echo.sh'
-		            sh './vars.sh'
-		            sh './sum.sh'
+		sh './vars.sh'
+		sh './sum.sh'
             }
         }
     }
